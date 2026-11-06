@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello Bulma!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="input.css" />
+  </head>
+  <body>
+    <h1 class="title">Student card</h1>
+    <section>
+      <div id="section1">
+        <h2 class="ner">Name</h2>
+        <input id="ninput" class="input" type="text" />
+        <h2 class="email">Email</h2>
+        <input id="einput" class="input" type="text" />
+        <h2 class="nas">Age</h2>
+        <input id="ainput" class="input" type="text" />
+        <h2 class="nas">Class</h2>
+        <input id="cinput" class="input" type="text" />
+        <button onclick="dar()" class="button is-primary">Continue</button>
+      </div>
+      <div class="oute">
+        <h3 class="out">
+          Name:
+          <p id="nome"></p>
+        </h3>
+        <h3 class="out">
+          Email:
+          <p id="emoil"></p>
+        </h3>
+        <h3 class="out">
+          Age:
+          <p id="oge"></p>
+        </h3>
+        <h3 class="out">
+          Class:
+          <p id="closs"></p>
+        </h3>
+      </div>
+    </section>
+    <script>
+      const ninput = document.getElementById("ninput");
+      const einput = document.getElementById("einput");
+      const ainput = document.getElementById("ainput");
+      const cinput = document.getElementById("cinput");
+      const dar = () => {
+        nome.textContent = ninput.value;
+        emoil.textContent = einput.value;
+        oge.textContent = ainput.value;
+        closs.textContent = cinput.value;
+        document.getElementById("section1").classList.add("hide");
+      };
+    </script>
+  </body>
+</html>

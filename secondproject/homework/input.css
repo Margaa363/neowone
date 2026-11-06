@@ -1,0 +1,19 @@
+.title {
+  font-size: 50px;
+}
+.input {
+  width: 320px;
+}
+.button {
+  top: 10px;
+  display: block;
+}
+.oute {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hide {
+  display: none;
+}

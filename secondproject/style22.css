@@ -1,0 +1,561 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.zurag {
+  width: 100%;
+  height: 90vh;
+  background-image: url(./2b2f8787985cabb6920eaaeecfea44bd6b5ef5d8\ \(2\).png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.deed {
+  display: flex;
+  justify-content: end;
+}
+section {
+  margin-top: 4%;
+  gap: 4vh;
+  display: flex;
+  justify-content: end;
+  margin-right: 4vw;
+}
+.frame {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0%;
+  gap: 4vw;
+}
+.icon {
+  display: none;
+  width: 12vw;
+  height: 4vh;
+  padding: 0px;
+  margin-right: 60%;
+  margin-top: 4%;
+}
+
+.com {
+  width: 120px;
+  height: 40px;
+  margin-top: 3.5%;
+  gap: 10px;
+  border-radius: 5px;
+  background: #f84646;
+  border: 0px;
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #ffffff;
+  margin-right: 120px;
+}
+.bichig {
+  margin-top: 10%;
+  margin-left: 5%;
+  width: 100%;
+  height: 100%;
+  max-width: 60vw;
+  max-height: 60vh;
+  gap: 4vh;
+  display: flex;
+  flex-direction: column;
+}
+.garchig {
+  max-width: 60vw;
+  max-height: 30vh;
+  font-family: "Manrope";
+  font-weight: 800;
+  font-size: 400%;
+  letter-spacing: 0%;
+}
+.par {
+  width: 45vw;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 140%;
+  letter-spacing: 0.2px;
+}
+.search {
+  width: 30vw;
+  height: 7vh;
+  border-radius: 8px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.email {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  border: 0px;
+  color: #00000066;
+  padding-left: 20px;
+  border: 0px;
+}
+.sign {
+  position: absolute;
+  width: 7vw;
+  height: 5vh;
+  border: 0px;
+  border-radius: 8px;
+  background: #f84646;
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  color: white;
+  margin-top: 1px;
+  margin-left: 22vw;
+}
+.sign {
+  transition: all 0.4s;
+}
+.sign:hover {
+  background: #f84646;
+  transform: rotate(360deg);
+}
+
+.temdeg {
+  max-width: 100%;
+  margin-top: 120px;
+  margin-bottom: 140px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.temdeg h3 {
+  font-family: "Manrope";
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 30px;
+}
+.temdeg p {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 39.5px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-top: 30px;
+  width: 60vw;
+}
+.temdegnuud {
+  max-width: 1200px;
+  margin-top: 145px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.neg {
+  width: 380px;
+  height: 225px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.file {
+  width: 79px;
+  height: 77px;
+}
+.ner {
+  width: 380px;
+  font-family: "Manrope";
+  font-weight: 800;
+  font-size: 24px;
+  letter-spacing: 0%;
+  display: flex;
+  justify-content: center;
+  color: #000000;
+}
+.mod {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+.ulaan {
+  width: 100%;
+  background: #f84646;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.asuult {
+  font-family: "Manrope";
+  font-weight: 800;
+  font-size: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 68px;
+}
+.ugnuud {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+}
+.sanal {
+  width: 100%;
+  margin-top: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5vw;
+  margin-bottom: 5%;
+}
+.skill {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 18px;
+
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.sum {
+  width: 32px;
+  height: 32px;
+}
+.taniltsuulga {
+  width: 100%;
+  margin-top: 160px;
+  margin-bottom: 160px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 12vw;
+}
+.ehniih {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.hoyrdoh {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.group1 {
+  max-width: 30vw;
+  max-height: 48vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sedev1 {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 64px;
+  letter-spacing: 0%;
+  color: #2e2e2e;
+}
+.word1 {
+  width: 520px;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0%;
+  color: #808080;
+}
+.tovch {
+  width: 160px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 12px;
+  gap: 10px;
+  border: 0px;
+  background-color: #f84646;
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #ffffff;
+  justify-content: end;
+}
+.photo {
+  width: 504px;
+  height: 480px;
+  border-radius: 8px;
+}
+.group2 {
+  max-width: 30vw;
+  max-height: 48vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sedev2 {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 64px;
+  letter-spacing: 0%;
+  color: #2e2e2e;
+}
+.logos {
+  width: 100%;
+  gap: 4vh;
+  background-color: #f4f5f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-family: "Manrope";
+  font-weight: 800;
+  font-size: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 40px;
+}
+.work {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #18191f;
+}
+.logonuud {
+  max-width: 80vw;
+  max-height: 340vh;
+  gap: 4vh;
+  gap: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.log {
+  width: 160px;
+  height: 9vh;
+  margin: 1vw;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.log1 {
+  width: 135px;
+  height: 65px;
+}
+
+.follow {
+  width: 100%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vh;
+}
+.hun {
+  width: 120px;
+  height: 120px;
+}
+.bize {
+  font-family: "Manrope";
+  font-weight: 800;
+  font-size: 48px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.contact {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.dar {
+  width: 204px;
+  height: 70px;
+  border-radius: 8px;
+  border: 0px;
+  gap: 10px;
+  background-color: #f84646;
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+footer {
+  width: 100%;
+  background-color: #f8464a;
+}
+.bagts {
+  max-width: 103vw;
+  display: flex;
+  align-items: baseline;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+.bag1 {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0%;
+  color: #e6e6e6;
+}
+.bag2 {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0%;
+  color: #e6e6e6;
+}
+.bag3 {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0%;
+  color: #e6e6e6;
+}
+.bag4 {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0%;
+  color: #e6e6e6;
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 5vw;
+  padding: 5vh;
+}
+.copy {
+  display: flex;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.five {
+  display: flex;
+}
+.bold {
+  bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .icon {
+    display: block;
+  }
+  .big {
+    display: none;
+  }
+  .com {
+    margin-right: 20px;
+  }
+  .logonuud {
+    display: flex;
+    flex-direction: column;
+  }
+  .bagts {
+    display: flex;
+    flex-direction: column;
+  }
+  .foot {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+  .bicig {
+    max-width: 90vw;
+    display: flex;
+    margin-left: 15vw;
+  }
+  .garchig {
+    font-size: 300%;
+    max-height: 50vh;
+  }
+  .par {
+    font-size: 125%;
+  }
+  .temdegnuud {
+    display: flex;
+    justify-content: center;
+  }
+  .search {
+    width: 60vw;
+  }
+  .sign {
+    width: 15vw;
+    margin-left: 43vw;
+  }
+  .sanal {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sum {
+    transform: rotate(90deg);
+  }
+  .group1 {
+    display: flex;
+    align-items: center;
+    gap: 4vh;
+    margin-bottom: 8vh;
+    text-align: center;
+  }
+  .group2 {
+    display: flex;
+    align-items: center;
+    gap: 4vh;
+    margin-top: 8vh;
+    text-align: center;
+  }
+  .logonuud {
+    display: flex;
+    justify-content: center;
+  }
+  .ehniih {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .group1 {
+    max-width: 100%;
+    margin-top: 8vh;
+  }
+  .logos {
+    padding-bottom: 20px;
+  }
+}

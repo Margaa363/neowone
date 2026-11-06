@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello Bulma!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <!-- <button onclick="sum()" class="button is-link">nemeh</button>
+    <script>
+      const sum = () => {
+        let a = Number(prompt("A too"));
+        let b = Number(prompt("B too"));
+        const sum = a + b;
+        alert("Niilber:" + sum);
+        console.log("sum");
+      };
+    </script>
+    <button onclick="min()" class="button is-info">hasah</button>
+    <script>
+      const min = () => {
+        let a = Number(prompt("A too"));
+        let b = Number(prompt("B too"));
+        const min = a - b;
+        alert("yalgavar:" + min);
+        console.log("min");
+      };
+    </script>
+    <button onclick="urj()" class="button is-danger">urjih</button>
+    <script>
+      const urj = () => {
+        let a = Number(prompt("A too"));
+        let b = Number(prompt("B too"));
+        const urj = a * b;
+        alert("Urjver:" + urj);
+        console.log("urj");
+      };
+    </script>
+    <button onclick="huv()" class="button is-warning">huvaah</button>
+    <script>
+      const huv = () => {
+        let a = Number(prompt("A too"));
+        let b = Number(prompt("B too"));
+        const huv = a / b;
+        alert("Noogdvor:" + huv);
+        console.log(huv);
+      };
+    </script> -->
+    <!-- <section class="section">
+      <h1 id="ner">Hello</h1>
+      <button onclick="addname()" class="button">Name</button>
+    </section>
+
+    <script>
+      const tooH1 = document.getElementById("ner");
+
+      let string = "Hello ";
+
+      const addname = () => {
+        let name = prompt("Neree bich");
+        string = string + name;
+        tooH1.textContent = string; 
+      };
+    </script> -->
+    <link rel="stylesheet" href="bulma.css" />
+    <section class="section">
+      <h1 id="item">Idevhej</h1>
+      <button onclick="activate()" class="button">Activate</button>
+      <button onclick="deactivate()" class="button">Deactivate</button>
+    </section>
+    <script>
+      const title = document.getElementById("item");
+      const activate = () => {
+        title.classList.add("active");
+      };
+      const deactivate = () => {
+        title.classList.remove("active");
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello Bulma!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="heal.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div id="1" class="full"></div>
+      <div id="2" class="full"></div>
+      <div id="3" class="full"></div>
+      <div id="4" class="full"></div>
+      <div id="5" class="full"></div>
+    </section>
+
+    <button onclick="attack()" class="button is-danger">Attack</button>
+    <button onclick="heal()" class="button is-success">Heal</button>
+
+    <script>
+      let lasthealth = 5;
+      const attack = () => {
+        let healthbar = document.getElementById(lasthealth);
+        lasthealth = lasthealth - 1;
+        healthbar.classList.remove("full");
+      };
+      const heal = () => {
+        lasthealth = lasthealth + 1;
+        const heal = document.getElementById(lasthealth);
+        heal.classList.add("full");
+      };
+    </script>
+  </body>
+</html>

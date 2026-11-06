@@ -1,0 +1,33 @@
+.ball {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+  border-radius: 50%;
+  animation: bounce 1s infinite alternate;
+}
+@keyframes bounce {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translateY(100px);
+  }
+}
+.loader {
+  margin-left: 300px;
+  width: 200px;
+  height: 200px;
+  border: 40px solid gray;
+  border-radius: 50%;
+  border-top: 40px solid yellow;
+
+  animation: rotate 1s infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
